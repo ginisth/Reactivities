@@ -1,15 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{5AE2400D-67A1-4F00-8E67-4071384423A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{5AE2400D-67A1-4F00-8E67-4071384423A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{B26D343A-953C-49B9-949E-D1DAE874048D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Application\Application.csproj", "{B26D343A-953C-49B9-949E-D1DAE874048D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence", "Persistence\Persistence.csproj", "{FB189B22-4EC9-46AA-93CE-600F14F6DD2B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persistence", "Persistence\Persistence.csproj", "{FB189B22-4EC9-46AA-93CE-600F14F6DD2B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{B76010CC-D944-4662-A7E6-822CE70DE77A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", "API\API.csproj", "{B76010CC-D944-4662-A7E6-822CE70DE77A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{99E39D24-A4A3-4254-AE40-31C66E81405D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,9 +21,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{5AE2400D-67A1-4F00-8E67-4071384423A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -72,5 +71,11 @@ Global
 		{B76010CC-D944-4662-A7E6-822CE70DE77A}.Release|x64.Build.0 = Release|Any CPU
 		{B76010CC-D944-4662-A7E6-822CE70DE77A}.Release|x86.ActiveCfg = Release|Any CPU
 		{B76010CC-D944-4662-A7E6-822CE70DE77A}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {32BC1EAE-6E4D-42C8-86EA-85BE0C51787C}
 	EndGlobalSection
 EndGlobal
